@@ -1,3 +1,5 @@
+// Add Spotlight component source code
+
 import React from "react";
 import { cn } from "@/utils/cn";
 
