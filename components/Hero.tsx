@@ -34,14 +34,14 @@ const Hero = () => {
             Dynamic Web Magic with Next.js
           </h2>
 
-          {/* Add Text Generate effect component */}
+          {/* Add Text Generate Effect component */}
           <TextGenerateEffect 
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Transforming Concepts into Seamless User Expriences"
+            words="Transforming Concepts into Seamless User Experiences"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Moris, an RPA Developer based in Kenya
+            Hi, I&apos;m Moris, an RPA Developer based in Kenya.
           </p>
 
           <a href="#about">

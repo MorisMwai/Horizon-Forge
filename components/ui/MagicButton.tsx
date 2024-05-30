@@ -1,5 +1,4 @@
-// Add MagicButton
-
+// Add MagicButton component
 import React from "react";
 
 // Make it accept some props
