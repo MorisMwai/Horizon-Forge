@@ -3,11 +3,11 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
+import { Boxes } from "./ui/background-boxes";
 
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
-
       {/* Add Aceternity Spotlight component */}
       <div>
         <Spotlight
@@ -22,9 +22,16 @@ const Hero = () => {
       </div>
 
       {/* Add Aceternity Grid and Dot Background */}
-      <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0">
-        {/* Radial gradient for the container to give a faded look */}
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" /> 
+      {/* <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex items-center justify-center absolute top-0 left-0"> */}
+      {/* Radial gradient for the container to give a faded look */}
+      {/* <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" /> 
+      </div> */}
+
+      {/* Background Boxes */}
+      <div className="h-screen absolute w-full overflow-hidden dark:bg-black-100 bg-white flex items-center justify-center rounded-lg top-0 left-0">
+        <div className="absolute inset-0 w-full h-screen dark:bg-black-100 bg-white z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none flex items-center justify-center" />
+
+        <Boxes />
       </div>
 
       {/* Heading wrapper */}
@@ -35,7 +42,7 @@ const Hero = () => {
           </h2>
 
           {/* Add Text Generate Effect component */}
-          <TextGenerateEffect 
+          <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
             words="Transforming Concepts into Seamless User Experiences"
           />
@@ -48,7 +55,7 @@ const Hero = () => {
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
-              position="right" 
+              position="right"
             />
           </a>
         </div>
