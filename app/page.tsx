@@ -1,8 +1,10 @@
-import Grid from "@/components/Grid";
+"use client";
+
+import { navItems } from "@/data";
+
 import Hero from "@/components/Hero";
+import Grid from "@/components/Grid";
 import { FloatingNav } from "@/components/ui/FloatingNav";
-import Image from "next/image";
-import { FaHome } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -10,15 +12,14 @@ export default function Home() {
       <div className="max-w-7xl w-full">
 
         {/* Floating Nav */}
-        <FloatingNav navItems={[
-          {name: 'Home', link: '/', icon: <FaHome />},
-        ]} />
+        <FloatingNav navItems={navItems} />
 
         {/* Hero */}
         <Hero />
 
         {/* Bento Grid */}
         <Grid />
+    
       </div>
     </main>
   );
