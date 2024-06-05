@@ -13,7 +13,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto ",
+        "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto",
         className
       )}
     >
@@ -113,18 +113,16 @@ export const BentoGridItem = ({
           {id === 2 && <GlobeDemo />}
 
           {/* Tech stack list div id is 3 */}
-          {id === 3 && (
+          {id === 4 && (
             // render a div which will act as the container
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               {/* render the tech stack list */}
-              <div className="flex flex-col gap-3 lg:gap-8">
+              <div className="flex flex-col gap-3 lg:gap-5">
                 {/* render left list first */}
                 {[
                   "UiPath",
                   "Microsoft Power Automate",
-                  "Microsoft Power Automate Desktop",
-                  "C#",
-                  "TypeScript",
+                  ".NET",
                 ].map((item) => (
                   <span
                     key={item}
@@ -135,11 +133,10 @@ export const BentoGridItem = ({
                 ))}
                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
               </div>
-              <div className="flex flex-col gap-3 lg:gap-8">
+              <div className="flex flex-col gap-3 lg:gap-5">
                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
                 {[
-                  "SQL",
-                  "AWS",
+                  "Python",
                   "React.js",
                   "Angular.js",
                 ].map((item) => (
