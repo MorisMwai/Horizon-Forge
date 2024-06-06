@@ -1,7 +1,14 @@
 // Add Bento Grid component
+'use client'
+
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
+import { useState } from "react";
+import animationData from "@/data/confetti.json";
+import Lottie from "react-lottie";
+import MagicButton from "./MagicButton";
+import { IoCopyOutline } from "react-icons/io5";
 
 export const BentoGrid = ({
   className,
@@ -41,6 +48,15 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
+  // Create a state
+  const [copied, setCopied] = useState(false);
+
+  // Function to manage the copying of the email
+  const handleCopy = () => {
+    navigator.clipboard.writeText('mwaimoris@gmail.com');
+    setCopied(true);
+  }
+
   return (
     <div
       className={cn(
@@ -92,7 +108,7 @@ export const BentoGridItem = ({
         {id === 6 && (
           // add background animation
           <BackgroundGradientAnimation>
-            <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
+            {/* <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div> */}
           </BackgroundGradientAnimation>
         )}
 
@@ -148,6 +164,33 @@ export const BentoGridItem = ({
                   </span>
                 ))}
               </div>
+            </div>
+          )}
+
+          {/* Dynamic content if id is 6 */}
+          {id === 6 && (
+            <div className="mt-5 relative">
+              <div className={`absolute -bottom-5 right-0`}>
+
+                {/* Render a lottie animation */}
+                <Lottie options={{
+                  // Object of loop only when copied so we need to have access to the state of copied
+                  loop: copied,
+                  autoplay: copied,
+                  animationData,
+                  rendererSettings: {
+                    preserveAspectRatio: 'xMidYMid slice'
+                  }
+                }} />
+              </div>
+
+              {/* Button to trigger animation */}
+              <MagicButton
+                title={copied ? 'Email copied' : 'Copy my email'}
+                icon={<IoCopyOutline />}
+                position="left"
+                otherClasses="!bg-[#161a31]"
+                handleClick={handleCopy} />
             </div>
           )}
         </div>
