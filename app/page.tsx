@@ -6,6 +6,7 @@ import Grid from "@/components/Grid";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Projects from "@/components/Projects";
 import Certifications from "@/components/Certifications";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
@@ -26,6 +27,8 @@ export default function Home() {
 
         {/* Certifications */}
         <Certifications />
+
+        <Experience />
     
       </div>
     </main>
