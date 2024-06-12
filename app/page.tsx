@@ -1,11 +1,11 @@
 "use client";
 
 import { navItems } from "@/data";
-
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Projects from "@/components/Projects";
+import Certifications from "@/components/Certifications";
 
 export default function Home() {
   return (
@@ -23,6 +23,9 @@ export default function Home() {
 
         {/* Recent Projects */}
         <Projects />
+
+        {/* Certifications */}
+        <Certifications />
     
       </div>
     </main>
