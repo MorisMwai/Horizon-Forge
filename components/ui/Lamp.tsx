@@ -14,10 +14,10 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-5 bg-gradient-to-br from-slate-300 to-slate-800 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl heading"
+        className="bg-gradient-to-br from-slate-300 to-slate-800 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl heading"
       >
-        <span className="text-white">My</span> 
-        <span className="text-purple"> Work Experience</span>
+        <span className="text-purple">My</span> 
+        <span className="text-blue-100"> Work Experien</span><span className="text-black-300">ce</span>
       </motion.h1>
     </LampContainer>
   );
@@ -33,7 +33,7 @@ export const LampContainer = ({
   return (
     <div
       className={cn(
-        "relative flex h-[70vh] flex-col items-center justify-center overflow-hidden bg-slate-950 w-full rounded-md z-0",
+        "relative flex h-[75vh] flex-col items-center justify-center overflow-hidden bg-slate-950 w-full rounded-lg z-0 top-[60%] translate-y-[-60%]",
         className
       )}
     >

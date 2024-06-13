@@ -7,6 +7,7 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import Projects from "@/components/Projects";
 import Certifications from "@/components/Certifications";
 import Experience from "@/components/Experience";
+import Approach from "@/components/Approach";
 
 export default function Home() {
   return (
@@ -28,7 +29,11 @@ export default function Home() {
         {/* Certifications */}
         <Certifications />
 
+        {/* Experience */}
         <Experience />
+
+        {/* Approach */}
+        <Approach />
     
       </div>
     </main>

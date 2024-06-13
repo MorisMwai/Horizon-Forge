@@ -12,7 +12,7 @@ const Experience = () => {
         
 
         {/* Experience cards */}
-        <div className='w-full -mt-20 md:-mt-20 grid lg:grid-cols-4 grid-cols-1 gap-10 max-lg:-mt-5'>
+        <div className='w-full top-[15%] translate-y-[-15%] grid lg:grid-cols-4 grid-cols-1 gap-10 max-lg:mt-5'>
           {workExperience.map((card) => (
             <Button
             key={card.id}
