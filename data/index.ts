@@ -40,7 +40,7 @@ export const gridItems = [
   {
     id: 4,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "Constantly Upskilling",
     className: "lg:col-span-2 lg:row-span-1 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center",

@@ -128,7 +128,7 @@ export const BentoGridItem = ({
           {/* Dynamic content if id is 2 - Github Globe */}
           {id === 2 && <GlobeDemo />}
 
-          {/* Tech stack list div id is 3 */}
+          {/* Tech stack list div id is 4 */}
           {id === 4 && (
             // render a div which will act as the container
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
@@ -136,8 +136,8 @@ export const BentoGridItem = ({
               <div className="flex flex-col gap-3 lg:gap-5">
                 {/* render left list first */}
                 {[
+                  "Power Automate",
                   "UiPath",
-                  "Microsoft Power Automate",
                   ".NET",
                 ].map((item) => (
                   <span

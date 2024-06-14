@@ -19,7 +19,7 @@ const Hero = () => {
           fill="purple"
         />
         <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
-        <Spotlight className="top-28 left-1/2 transform -translate-x-1/2 h-[80vh] w-[50vw]" fill="white" />
+        {/* <Spotlight className="top-28 left-1/2 transform -translate-x-1/2 h-[80vh] w-[50vw]" fill="white" /> */}
         {/* <Spotlight className="top-28 right-0 h-[80vh] w-[50vw]" fill="green" /> */}
 
       </div>

@@ -7,7 +7,7 @@ import { div } from 'three/examples/jsm/nodes/Nodes.js'
 const Certifications = () => {
   return (
     <div className='py-20' id='certifications'>
-        <h1 className='top-[40%] translate-y-[-40%] heading'>
+        <h1 className='top-[50%] translate-y-[-50%] heading'>
             Proven Expertise: {' '}
             <span className='text-purple'>Certifications</span>
         </h1>
