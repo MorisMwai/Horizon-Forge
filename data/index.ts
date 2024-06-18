@@ -9,12 +9,12 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "From Brainstorm to Brilliance: The Development Journey",
     description: "",
     className: "lg:col-span-2 lg:row-span-2 md:col-span-2 md:row-span-2 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/item1.jpg",
     spareImg: "",
   },
   {

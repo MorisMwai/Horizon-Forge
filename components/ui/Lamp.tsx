@@ -17,7 +17,7 @@ export function LampDemo() {
         className="bg-gradient-to-br from-slate-300 to-slate-800 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl heading"
       >
         <span className="text-purple">My</span> 
-        <span className="text-blue-100"> Work Experien</span><span className="text-black-300">ce</span>
+        <span className="text-blue-100"> Work Experien</span><span className="text-blue-200 md:text-black-300">ce</span>
       </motion.h1>
     </LampContainer>
   );

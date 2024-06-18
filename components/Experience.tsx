@@ -6,7 +6,7 @@ import { workExperience } from '@/data'
 const Experience = () => {
   return (
     <div className='py-20' id='certifications'>
-      <div className='-top-20 h-[55vh] max-lg:-mt-5 overflow-hidden'>
+      <div className='-top-20 h-[55vh]'>
         <LampDemo />
       </div>
         

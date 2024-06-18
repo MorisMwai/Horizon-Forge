@@ -2,8 +2,9 @@ import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaChevronDown, FaLocationArrow, FaRocket } from "react-icons/fa6";
 import { Boxes } from "./ui/background-boxes";
+import { FaAngleDoubleDown } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -41,7 +42,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Automating the Future of Business
+          Transforming Ideas into Automated Excellence
           </h2>
 
           {/* Add Text Generate Effect component */}
@@ -51,13 +52,13 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Moris, an RPA Developer based in Kenya.
+            Hi, I&apos;m Moris, an RPA Engineer based in Kenya.
           </p>
 
           <a href="#about">
             <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
+              title="Dive In"
+              icon={<FaAngleDoubleDown />}
               position="right"
             />
           </a>
