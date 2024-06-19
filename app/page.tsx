@@ -9,6 +9,8 @@ import Certifications from "@/components/Certifications";
 import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Home() {
   return (
@@ -38,6 +40,12 @@ export default function Home() {
 
         {/* Footer Component */}
         <Footer />
+
+        <SpeedInsights/>
+        <Analytics 
+          mode={'production'}
+          debug={false} 
+        />
     
       </div>
     </main>
