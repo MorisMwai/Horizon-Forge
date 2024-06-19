@@ -29,6 +29,7 @@ export default function RootLayout({
           >
             {children}
         </ThemeProvider>
+        <SpeedInsights/>
 
         {/* To do: Add a mode toggle */}
       </body>
