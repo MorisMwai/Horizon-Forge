@@ -2,7 +2,7 @@ import { projects } from '@/data'
 import React from 'react'
 import { PinContainer } from './ui/3d-pin'
 import { div } from 'three/examples/jsm/nodes/Nodes.js'
-import { FaLocationArrow } from 'react-icons/fa6'
+import { FaEye, FaFingerprint, FaLocationArrow } from 'react-icons/fa6'
 
 const Projects = () => {
   return (
@@ -18,7 +18,7 @@ const Projects = () => {
             <div key={id} className='sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vh]'>
               
               {/* Render 3D Pin Component here */}
-              <PinContainer title={link} href={link}>
+              <PinContainer title="View" href={link}>
                 {/* Children properties */}
                 <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10'>
                   <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
@@ -49,8 +49,8 @@ const Projects = () => {
                   </div>
 
                   <div className='flex justify-center items-center'>
-                    <p className='flex lg:text-xl md:text-xs text-sm text-purple'>Check Live Site</p>
-                    <FaLocationArrow className='ms-3' color='#CBACF9' />
+                    <p className='flex lg:text-xl md:text-xs text-sm text-purple'>Check Code</p>
+                    <FaEye className='ms-3' color='#CBACF9' />
                   </div>
                 </div>
               </PinContainer>
