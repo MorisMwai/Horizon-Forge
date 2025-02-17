@@ -77,7 +77,7 @@ export const projects = [
   {
     id: 1,
     title: "Coming very soon!",
-    des: "AI Agents Overview",
+    des: "Exploration",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
@@ -85,7 +85,7 @@ export const projects = [
   {
     id: 2,
     title: "Coming very soon!",
-    des: "Exploration",
+    des: "AI Agents Overview",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
@@ -178,28 +178,28 @@ export const workExperience = [
   {
     id: 1,
     title: "RPA Engineer - GRIFFIN Global Tech",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Developing and deploying automation solutions using UiPath and Power Automate, reducing manual processing time by up to 80% across key workflows.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "UiPath RPA Developer - The Jitu",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    desc: "Developed UiPath automation solutions that streamlined operations, reducing task completion time by 60% in targeted business processes.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: ".NET Intern - The Jitu",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: "Broadened software development foundation through in-depth training in .NET and C# fundamentals, including working with APIs. This comprehensive training positions me for success in a wide range of software development endeavors.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "ICT Support Specialist - UON",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    desc: "Provided IT support and infrastructure maintenance, achieving a 95% issue resolution rate for students and faculty.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
