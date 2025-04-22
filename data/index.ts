@@ -11,7 +11,7 @@ export const gridItems = [
     id: 1,
     title: "From Brainstorm to Brilliance: The Development Journey",
     description: "",
-    className: "lg:col-span-2 lg:row-span-2 md:col-span-2 md:row-span-2 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/item1-4.jpg",
@@ -19,9 +19,9 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "The World is My Workspace: Embracing Global Collaboration for Your Success",
+    title: "Embracing Global Collaboration",
     description: "",
-    className: "lg:col-span-1 lg:row-span-2 md:col-span-1 md:row-span-1",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "",
@@ -31,7 +31,7 @@ export const gridItems = [
     id: 3,
     title: "Bridging the Tech Gap: RPA Engineer with a Developer's Mindset",
     description: "",
-    className: "lg:col-span-1 lg:row-span-1 md:col-span-1 md:row-span-1",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
@@ -41,7 +41,7 @@ export const gridItems = [
     id: 4,
     title: "Dev & Automate",
     description: "Constantly Evolving",
-    className: "lg:col-span-2 lg:row-span-1 md:col-span-3 md:row-span-1",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "/grid.svg",
@@ -52,7 +52,7 @@ export const gridItems = [
     id: 5,
     title: "Currently exploring Intelligent Automation solutions using UiPath AI Center and Document Understanding.",
     description: "The Inside Scoop",
-    className: "lg:col-span-2 lg:row-span-1 md:col-span-2 md:row-span-1",
+    className: "md:col-span-3 md:row-span-1",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/item5-2.jpg",
@@ -62,16 +62,13 @@ export const gridItems = [
     id: 6,
     title: "Project in Mind? Let's Discuss!",
     description: "",
-    className: "lg:col-span-1 lg:row-span-1 md:col-span-1 md:row-span-1",
+    className: "lg:col-span-5 md:col-span-6 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
     spareImg: "",
   },
 ];
-
-
-
 
 export const projects = [
   {

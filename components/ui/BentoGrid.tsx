@@ -9,6 +9,7 @@ import animationData from "@/data/confetti.json";
 import Lottie from "react-lottie";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import { GlareCard } from "./glare-card";
 
 export const BentoGrid = ({
   className,
@@ -20,7 +21,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto",
+        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
         className
       )}
     >
@@ -108,8 +109,12 @@ export const BentoGridItem = ({
         {id === 6 && (
           // add background animation
           <BackgroundGradientAnimation>
-            {/* <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div> */}
+            
           </BackgroundGradientAnimation>
+
+          // <GlareCard>
+
+          // </GlareCard>
         )}
 
         <div
@@ -138,7 +143,7 @@ export const BentoGridItem = ({
                 {[
                   "Power Automate",
                   "UiPath",
-                  ".NET",
+                  "C#",
                 ].map((item) => (
                   <span
                     key={item}
@@ -152,9 +157,9 @@ export const BentoGridItem = ({
               <div className="flex flex-col gap-3 lg:gap-5">
                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
                 {[
-                  "Python",
-                  "React.js",
-                  "Angular.js",
+                  "TypeScript",
+                  ".NET",
+                  "Angular",
                 ].map((item) => (
                   <span
                     key={item}
