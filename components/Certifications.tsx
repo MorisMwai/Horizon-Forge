@@ -1,6 +1,6 @@
 import React from 'react'
 import { InfiniteMovingCards } from './ui/InfiniteMovingCards'
-import { testimonials } from '@/data'
+import { certifications } from '@/data'
 import { companies } from '@/data'
 import { div } from 'three/examples/jsm/nodes/Nodes.js'
 
@@ -15,7 +15,7 @@ const Certifications = () => {
         {/* Certification cards */}
         <div className='flex flex-col items-center max-lg:mt-10'>
             <InfiniteMovingCards 
-                items={testimonials}
+                items={certifications}
                 direction='right'
                 speed='slow'
             />
@@ -26,13 +26,13 @@ const Certifications = () => {
                         <img 
                             src={img} 
                             alt={name}
-                            className='md:w-10 w-5'
+                            className='md:w-20 w-10'
                          />
-                        <img 
+                        {/* <img 
                             src={nameImg} 
                             alt={name}
                             className='md:w-24 w-20'
-                         />
+                         /> */}
                     </div>
                 ))}
             </div>

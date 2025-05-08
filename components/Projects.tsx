@@ -13,14 +13,14 @@ const Projects = () => {
         </h1>
 
         {/* Project cards */}
-        <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
+        <div className='flex flex-wrap items-center justify-center p-4 gap-x-16 gap-y-1 mt-2'>
           {projects.map(({ id, title, des, img, iconLists, link }) => (
-            <div key={id} className='sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vh]'>
+            <div key={id} className='sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[500px] w-[80vh]'>
               
               {/* Render 3D Pin Component here */}
               <PinContainer title="View" href={link}>
                 {/* Children properties */}
-                <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10'>
+                <div className='relative flex items-center justify-center sm:w-[500px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-2'>
                   <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
                     <img src='/bg.png' alt='bg-img' />
                   </div>
@@ -49,8 +49,15 @@ const Projects = () => {
                   </div>
 
                   <div className='flex justify-center items-center'>
-                    <p className='flex lg:text-xl md:text-xs text-sm text-purple'>Check Code</p>
-                    <FaEye className='ms-3' color='#CBACF9' />
+                    <a
+                      href={link}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='flex justify-center items-center hover:underline hover:text-purple/80 transition duration-300'
+                    >
+                      <p className='flex lg:text-xl md:text-xs text-sm text-purple'>Check Code</p>
+                      <FaEye className='ms-3' color='#CBACF9' />
+                    </a>
                   </div>
                 </div>
               </PinContainer>

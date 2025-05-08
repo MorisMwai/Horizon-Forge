@@ -55,7 +55,7 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-1",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/item5-2.jpg",
+    img: "/logos/uipath-seeklogo.svg",
     spareImg: "/grid.svg",
   },
   {
@@ -77,7 +77,7 @@ export const projects = [
     des: "Exploration",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://github.com/MorisMwai",
   },
   {
     id: 2,
@@ -85,7 +85,7 @@ export const projects = [
     des: "AI Agents Overview",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://github.com/MorisMwai",
   },
   {
     id: 3,
@@ -93,7 +93,7 @@ export const projects = [
     des: "Under construction",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://github.com/MorisMwai",
   },
   {
     id: 4,
@@ -101,74 +101,119 @@ export const projects = [
     des: "Under Development",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://github.com/MorisMwai",
   },
 ];
 
-export const testimonials = [
+export const certifications = [
   {
-    quote:
-      "Collaborating with Moris was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    descr: "Validates foundational AWS Cloud knowledge for any industry role.",
+    name: "AWS Certified Cloud Practitioner",
+    title: "Issued by AWS Training & Certification",
+    link: "https://www.credly.com/badges/f4a0758f-87dc-4a1e-b089-b589d4df9d33/linked_in_profile",
+    logo: "/logos/aws-svgrepo-com.svg"
   },
   {
-    quote:
-      "Collaborating with Moris was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    descr: "Demonstrates ability to apply AI technologies in automation workflows.",
+    name: "UiPath Certified Professional Specialized AI Associate Certification",
+    title: "Issued by UiPath",
+    link: "https://credentials.uipath.com/d8f07e73-6982-47fc-8c78-4d6e9bda0c56",
+    logo: "/logos/uipath-seeklogo.svg"
   },
   {
-    quote:
-      "Collaborating with Moris was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    descr: "Completed API testing and collaboration fundamentals with Postman.",
+    name: "Postman API Fundamentals Student Expert",
+    title: "Issued by Postman",
+    link: "https://api.badgr.io/public/assertions/cKv5-YjLQ1O0hnlQwj4L4A",
+    logo: "/logos/postman-icon-svgrepo-com.svg"
   },
   {
-    quote:
-      "Collaborating with Moris was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    descr: "Built business, leadership, and digital skills through McKinsey’s Forward learning journey.",
+    name: "McKinsey Forward Program",
+    title: "Issued by McKinsey & Company",
+    link: "https://www.credly.com/badges/5509fad8-4a53-4d1b-98cb-da8a750c6d40/linked_in_profile",
+    logo: "/logos/mckinsey-logo.png"
   },
   {
-    quote:
-      "Collaborating with Moris was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    descr: "Demonstrates core RPA development skills in UiPath Studio and Orchestrator.",
+    name: "UiPath RPA Developer Associate",
+    title: "Issued by UiPath",
+    link: "https://credentials.uipath.com/2d24b828-90e7-40fe-a44a-08ea49687570",
+    logo: "/logos/uipath-seeklogo.svg"
+  },
+  {
+    descr: "Covered OOP basics, syntax, and project structuring in C# using Sololearn.",
+    name: "Introduction to C#",
+    title: "Issued by Sololearn",
+    link: "https://api2.sololearn.com/v2/certificates/CC-AYXOIRTR/image/png",
+    logo: "/logos/sololearn-seeklogo.svg"
+  },
+  {
+    descr: "Learned HTML, CSS, and JavaScript to build web foundations through interactive lessons.",
+    name: "Web Development Fundamentals",
+    title: "Issued by Sololearn",
+    link: "https://api2.sololearn.com/v2/certificates/CT-5BKYKXNP/image/png",
+    logo: "/logos/sololearn-seeklogo-2.svg"
+  },
+  {
+    descr: "Built responsive websites using Flexbox, Grid, and mobile-first design techniques.",
+    name: "Responsive Web Design",
+    title: "Issued by Sololearn",
+    link: "https://api2.sololearn.com/v2/certificates/CT-PLOWROG8/image/png",
+    logo: "/logos/sololearn-seeklogo.svg"
+  },
+  {
+    descr: "Gained foundational software development skills including Git, databases, and web tech.",
+    name: "Software Development Fundamentals",
+    title: "Issued by Power Learn Project",
+    link: "https://drive.google.com/file/d/1wsEXbhOyNRXWzFu7NxGhGXFtezsvAyk3/view?usp=sharing",
+    logo: "/logos/plp.jpg"
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "AWS",
+    img: "/logos/aws-svgrepo-com.svg",
+    nameImg: "",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "UiPath",
+    img: "/logos/uipath-seeklogo.svg",
+    nameImg: "",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Postman",
+    img: "/logos/postman-seeklogo.svg",
+    nameImg: "",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "Sololearn",
+    img: "/logos/sololearn-seeklogo.svg",
+    nameImg: "",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "McKinsey",
+    img: "/logos/McKinsey & Company_white.svg",
+    nameImg: "",
   },
+  {
+    id: 6,
+    name: "Power Automate",
+    img: "/logos/microsoft-power-automate-seeklogo.svg",
+    nameImg: "",
+  },
+  {
+    id: 7,
+    name: "THE Jitu",
+    img: "/logos/thejitu.png",
+    nameImg: "",
+  }
 ];
 
 export const workExperience = [
@@ -206,13 +251,12 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/MorisMwai"
   },
+
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/moris-m/"
   },
 ];
