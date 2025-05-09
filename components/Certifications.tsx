@@ -6,11 +6,15 @@ import { div } from 'three/examples/jsm/nodes/Nodes.js'
 
 const Certifications = () => {
   return (
-    <div className='py-20' id='certifications'>
-        <h1 className='top-[50%] translate-y-[-50%] heading'>
+    <div className='py-20 -mt-10' id='certifications'>
+        <h1 className='text-center text-4xl md:text-5xl font-bold tracking-tight heading top-[50%] translate-y-[-50%]'>
             Proven Expertise: {' '}
             <span className='text-purple'>Certifications</span>
         </h1>
+        <p className="text-center text-neutral-400 max-w-xl mx-auto mt-4 text-sm">
+            These certifications validate hands-on expertise in automation, cloud, and software engineering.
+        </p>
+
 
         {/* Certification cards */}
         <div className='flex flex-col items-center max-lg:mt-10'>
@@ -26,7 +30,7 @@ const Certifications = () => {
                         <img 
                             src={img} 
                             alt={name}
-                            className='md:w-20 w-10'
+                            className='md:w-20 w-10 grayscale hover:grayscale-0 transition-all duration-300'
                          />
                         {/* <img 
                             src={nameImg} 

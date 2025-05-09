@@ -7,7 +7,7 @@ import { div } from "three/examples/jsm/nodes/Nodes.js";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20 top-[15%] translate-y-[-15%]" id="approach">
+    <section className="w-full py-20 top-[5%] translate-y-[-5%]" id="approach">
       <h1 className="heading">
         My <span className="text-purple">Approach</span>
       </h1>

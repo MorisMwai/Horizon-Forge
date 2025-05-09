@@ -3,6 +3,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Certifications", link: "#certifications" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -219,6 +220,7 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
+    year: "2023 - Present",
     title: "RPA Engineer - GRIFFIN Global Tech",
     desc: "Developing and deploying automation solutions using UiPath and Power Automate, reducing manual processing time by up to 80% across key workflows.",
     className: "md:col-span-2",
@@ -226,6 +228,7 @@ export const workExperience = [
   },
   {
     id: 2,
+    year: "2023",
     title: "UiPath RPA Developer - The Jitu",
     desc: "Developed UiPath automation solutions that streamlined operations, reducing task completion time by 60% in targeted business processes.",
     className: "md:col-span-2", // change to md:col-span-2
@@ -233,6 +236,7 @@ export const workExperience = [
   },
   {
     id: 3,
+    year: "2023",
     title: ".NET Intern - The Jitu",
     desc: "Broadened software development foundation through in-depth training in .NET and C# fundamentals, including working with APIs. This comprehensive training positions me for success in a wide range of software development endeavors.",
     className: "md:col-span-2", // change to md:col-span-2
@@ -240,6 +244,7 @@ export const workExperience = [
   },
   {
     id: 4,
+    year: "2022",
     title: "ICT Support Specialist - UON",
     desc: "Provided IT support and infrastructure maintenance, achieving a 95% issue resolution rate for students and faculty.",
     className: "md:col-span-2",
